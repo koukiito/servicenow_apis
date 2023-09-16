@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:http/http.dart' as http;
-
 import 'package:servicenow_apis/shared.dart';
 import 'test_secret.dart' as secret;
 

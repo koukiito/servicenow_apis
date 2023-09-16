@@ -22,7 +22,7 @@ class TableApi {
         params: params);
     final response = await http.get(url, headers: headers);
 
-    print(jsonDecode(response.body)["result"]);
+    //print(jsonDecode(response.body)["result"]);
     List<ServiceNowRecord> records =
         (jsonDecode(response.body)["result"] as List<dynamic>)
             .map((e) => ServiceNowRecord(e))

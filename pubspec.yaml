@@ -1,7 +1,7 @@
 name: servicenow_apis
-description: A new Flutter project.
+description: A Flutter plugin to enable easy access to ServiceNow® REST API. This package is not official ServiceNow software.
 version: 0.0.1
-homepage:
+homepage: https://github.com/koukiito/servicenow_apis
 
 environment:
   sdk: '>=3.0.1 <4.0.0'
